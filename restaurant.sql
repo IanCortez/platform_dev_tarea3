@@ -1,5 +1,7 @@
 -- Users
 CREATE USER 'utec'@'localhost' IDENTIFIED BY '1234567890';
+GRANT ALL PRIVILEGES ON * . * TO 'utec'@'localhost';
+FLUSH PRIVILEGES;
 
 
 -- Database
