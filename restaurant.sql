@@ -1,3 +1,7 @@
+-- Users
+CREATE USER 'utec'@'localhost' IDENTIFIED BY '1234567890';
+
+
 -- Database
 CREATE DATABASE restaurant;
 USE restaurant;
