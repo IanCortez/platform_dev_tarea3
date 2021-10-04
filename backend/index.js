@@ -8,8 +8,8 @@ function getMenu(req, res){
 
 	var connection = mysql.createConnection({
 		host: "localhost",
-		user: "ian",
-		password: "icg28122002",
+		user: "utec",
+		password: "1234567890",
 		database: "restaurant"
 	});
 
