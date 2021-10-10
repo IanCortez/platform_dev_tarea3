@@ -1,7 +1,10 @@
 const mysql = require('mysql');
 const express = require('express');
+const cors = require('cors');
 
 var app = express();
+
+app.use(cors());
 
 
 function getMenu(req, res){
